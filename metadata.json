@@ -1,0 +1,8 @@
+{
+  "name": "Abdullah's Portfolio",
+  "description": "A modern, dark-themed portfolio for Abdullah, a Commerce student with skills in Web Dev, AI, and Digital Marketing.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
