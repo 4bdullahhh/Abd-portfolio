@@ -8,6 +8,7 @@ const QUOTES: Quote[] = [
   { text: "Commerce meets Code. The future is automated.", author: "Abdullah" },
   { text: "Digital Marketing isn't just ads, it's psychology + technology.", author: "Abdullah" },
   { text: "Building the future with n8n and AI.", author: "Abdullah" },
+  { text: "The best way to predict the future is to create it.", author: "Peter Drucker" }
 ];
 
 const SLIDER_IMAGES = [
@@ -100,6 +101,7 @@ export const Hero: React.FC = () => {
           {/* Dynamic Quote */}
           <div className="border-l-4 border-purple-500 pl-4 py-2 italic text-gray-500 dark:text-gray-300">
             <p className="text-lg transition-opacity duration-500">"{QUOTES[currentQuote].text}"</p>
+            <p className="text-sm text-gray-400 dark:text-gray-500 mt-1">- {QUOTES[currentQuote].author}</p>
           </div>
 
           <div className="flex flex-wrap gap-4">
